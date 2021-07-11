@@ -28,13 +28,13 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
+  color: #d00000;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #ff6f47;
+  background: #d00000;
   color: white;
 }
 .todo-container {
@@ -67,7 +67,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #d00000;
   color: white;
   border: none;
   padding: 1rem;
@@ -94,7 +94,9 @@ form button:hover {
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+  position: relative;
 }
+
 
 /*CUSTOM SELECTOR */
 select {
@@ -115,8 +117,9 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #0F2027;
   font-family: "Poppins", sans-serif;
+  font-size: 1rem;
   cursor: pointer;
   width: 12rem;
 }
@@ -127,7 +130,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #d00000;
   cursor: pointer;
   pointer-events: none;
 }
